@@ -1,0 +1,1 @@
+<p>sucessfully deleted user ({{$old_name}})</p>

@@ -1,0 +1,1 @@
+<p>Page of deleted ad</p>

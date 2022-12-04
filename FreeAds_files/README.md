@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Welcome!
+Welcome to this Laravel App! 
+
+## Project description
+This website is a full stack project. Each user has an account and is enabled to post an add to the homepage where he can see all the ads. There is an admin section to this project that enables the admin to manage its website users as well as posts. (Manage rights, credentials for users and modify or delete posts). 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -64,3 +70,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Main routes
+1. "/my_regsiter": Registration page where a user can create an account.
+2. "/My loggin": Login page where the user can log in if his account exists.
+3. "/send-mail": Redirection page that sends an email to the user, only returns an instruction asking the user to check his mailbox.
+4. "/email/verify/{id}": Another redirection page that tells the user that his email has been verified, this window pops up when the user clicks on the verifcation link in the email he just received.
+5. "/home/{id}": The home page, displays all posted ads
+6. "/home/{id}/adsSearch": A replica of the home page except only the ads that are filtered through the search are displayed
+7. "/admin/{admin_status}": Admin home page, accessible if the user is admin, presents the admin with 2 buttons: one that redirects to users management and the other that redirects to ads management.
+8. "/admin/{admin_status}/ads": display users management if the user is an admin, enbles the admin to manage the content of ads or to the delete them.
+9. "/admin/{admin_status}/user": display ads management if the user is an admin, enables the admin to update user profiles and to delete users
+10. "/profile/{id}": Enables a user to access its profile 
+11. "/postYourAd/{id}": Enables a precise user to post an add, the view consists of a simple form that the user can fill, redirects the user to the home page on submit event.
+
+## Authors
+-> Nathan Delmarche

@@ -60,7 +60,6 @@ Route::post("/users/update/{id}", [UserController::class, 'updateUser']); // red
 Route::get("/ads/delete/{id}", [AdController::class, 'deleteAd']); // redirection page where Ad with specific id is deleted
 Route::get("/ads/update/{id}", [AdController::class, 'displayUpdateAd']); // redirection page where Ad with specific id is update
 Route::post("/ads/update/{id}", [AdController::class, 'updateAd']); // redirection page where Ad with specific id is update
-//Route::get("/addAdd/{id}", AdController::class, 'displayAddAdView')->middleware("AdExist")
 
 
 /* --- User Profile --- */
